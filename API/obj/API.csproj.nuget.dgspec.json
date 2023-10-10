@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APT01-51\\Desktop\\RepoBaseAuth\\API\\API.csproj": {}
+    "C:\\Users\\APT01-51\\Desktop\\wwww\\RepoBaseAuth\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APT01-51\\Desktop\\RepoBaseAuth\\API\\API.csproj": {
+    "C:\\Users\\APT01-51\\Desktop\\wwww\\RepoBaseAuth\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APT01-51\\Desktop\\RepoBaseAuth\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-51\\Desktop\\wwww\\RepoBaseAuth\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\APT01-51\\Desktop\\RepoBaseAuth\\API\\API.csproj",
+        "projectPath": "C:\\Users\\APT01-51\\Desktop\\wwww\\RepoBaseAuth\\API\\API.csproj",
         "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APT01-51\\Desktop\\RepoBaseAuth\\API\\obj\\",
+        "outputPath": "C:\\Users\\APT01-51\\Desktop\\wwww\\RepoBaseAuth\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"

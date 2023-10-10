@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login and Sign up</title>
+
+</head>
+<body>
+    <!-- //FIRST FORM- BEGGIN -->
+    <div class="container-form register">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Welcome</h2>
+                <p>Login in with your data.</p>
+                <input type="button" value="Login" id="button-login">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-child">
+                <h2>Create an account</h2>
+                <div class="icons">
+                    <a href="https://localhost:7051/account/GoogleLogin"><i class='bx bxl-google'></i></a>
+                    <i class='bx bxl-github' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <p>Use your data to sign up.</p>
+                <form id="FormRegister" class="form-signup">
+                    <label>
+                        <i class='bx bx-user-pin' ></i>
+                        <input type="text" name="username" id="usernameRegister" placeholder="UserName">
+
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" name="email" id="emailRegister" placeholder="Email">
+
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" name="password" id="passwordRegister" placeholder="Password">
+
+                    </label>
+                    <input type="submit" value="Sign up" id="sign-up-bottom-send" data-accion="register">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- //SECOND FORM -->
+
+    <div class="container-form hide loggin">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Welcome one more time!</h2>
+                <p>We miss you. Please sign in!</p>
+                <input type="button" value="Sign up" id="buttom-sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-child">
+                <h2>Log in</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <p>Log in with an exist account.</p>
+                <form id="FormLogin" class="form-signup">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="text" name="username" id="usernameLogin" placeholder="UserName">
+
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" name="password" id="passwordLogin" placeholder="Password">
+
+                    </label>
+                    <input type="submit" value="Log in" id="login-bottom-send" data-accion="SingIn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/main.js"type="module" defer></script>
+</body>
+</html>

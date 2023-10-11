@@ -25,9 +25,11 @@ builder.Services.AddAuthentication(options =>
                 })
                 .AddGoogle(options =>
                 {
-            options.ClientId = "xxxx";
+                    options.ClientId = "xxxx";
                     options.ClientSecret = "xxxx";
+
                     options.ClaimActions.MapJsonKey("urn:google:picture", "picture", "url");
+                            options.ClaimActions.MapJsonKey("urn:google:locale", "locale", "string");
             
                 });
 
